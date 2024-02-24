@@ -3,6 +3,7 @@ import { Counter } from "./components/Counter";
 import { Formulario } from "./components/Formulario";
 import { TimerPadre } from "./components/TimerPadre";
 import { Usuario } from "./components/Usuario";
+import { Todo } from "./todo/components/Todo";
 
 
 function App() {
@@ -36,11 +37,12 @@ function App() {
       <Formulario/>
 
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      
+      <hr />
+      <h2>useContext - createContext - ContextProvider</h2>
+      <hr />
+
+      <Todo/>
     </>
   );
 }
